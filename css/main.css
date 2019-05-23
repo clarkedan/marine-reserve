@@ -1,0 +1,170 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+}
+html,body{
+	height: 100%;
+    width: 100%;
+    /* background-color: #666; */
+}
+
+/* NAVBAR!!!!! */
+.myNav{
+    height: 120px;
+    background-color: #1f2540;
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid #6bcbdc;
+}
+.logo img{
+    width: 316px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.myNavLinks{
+    color: #F2F5F3;
+    display: flex;
+    font-family: comfortaa;
+    letter-spacing: 1px;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.myNavLinks li{
+   font-size: 1.3em;
+   margin-right: 30px;
+}
+.myNavLinks li:hover{
+    border-bottom: 3px solid #8E5775;
+    cursor: pointer;
+ }
+
+/* MASTER!!!!! */
+ .masterContain{
+     max-width: 85%;
+ }
+
+ /* BANNER!!!!! */
+ .banner{
+     width: 100%;
+     height: auto;
+ }
+ .bannerContain{
+     position: relative;
+ }
+ .bannerWidth{
+     padding: 0px;
+ }
+ .bannerText{
+    position: absolute;
+    bottom: 8%;
+    margin-left: 50px;
+    background-color: #1f2540;
+    letter-spacing: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.9;
+ }
+ .bannerText h2{
+    margin-bottom: 10px;
+    font-family: Oswald;
+    font-weight: 600;
+    color: white;
+    font-size: 2em;
+ }
+ .bannerText--small{
+    font-weight: 400;
+ }
+
+ /*WHO WE ARE*/
+ .whoSection{
+     background-color: #F2F5F3;
+ }
+ .whoSection h2{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 600;
+	color: #1f2540;
+	font-size: 60px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+ .dash{
+	color: #8E5775;
+}
+.whoParagraphs{
+	font-family: Poppins;
+	color: #1f2540;
+	font-size: 24px;
+	padding: 50px 50px;
+}
+.whoBottom{
+	font-family: Poppins;
+	color: #1f2540;
+	font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*GET INVOLVED*/
+.involvedSection{
+    background-color: #1f2540;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.involvedSection h2{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 600;
+	color: #F2F5F3;
+	font-size: 60px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.involvedHeading{
+    margin-bottom: 50px;
+}
+.iconImage{
+    width: 100%;
+    opacity: 0.6;
+}
+.iconContain{
+    position: relative;
+    /* background-color: #666; */
+    margin-bottom: 50px;
+}
+.textOverIcon{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -170px;
+}
+.textOverIcon h3{
+    text-align: center;
+    font-family: Poppins;
+	color: #F2F5F3;
+	font-size: 25px;
+}
+.iconInfo{
+    font-family: Oswald;
+    font-weight: 600;
+	font-size: 36px;
+	letter-spacing: 3px;
+	text-align: center;
+    color: #F2F5F3;
+    margin-bottom: 50px;
+}
+
+     
+
+ 
