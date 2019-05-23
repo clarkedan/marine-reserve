@@ -165,6 +165,67 @@ html,body{
     margin-bottom: 50px;
 }
 
+/* OUR OCEAN*/
+.oceanSection{
+    background-color: #F2F5F3;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.oceanSection h2{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 600;
+	color: #1f2540;
+	font-size: 60px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.oceanHeading{
+    margin-bottom: 50px;
+}
+.oceanText{
+    font-family: poppins;
+	font-size: 22px;
+	color: #1f2540;
+}
+.oceanCard{
+    border-radius: 0px;
+    border: 5px solid #1f2540;
+}
+.oceanCardContain{
+    margin-bottom: 70px;
+}
+.oceanCard--img{
+    border-radius: 0px;
+}
+
+/* contact */
+.contactSection{
+    background-color: #1f2540;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contactSection h2{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 600;
+	color: #F2F5F3;
+	font-size: 60px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.contactHeading{
+    margin-bottom: 50px;
+}
+.whole{
+    background-color: #666;
+    height: 600px;
+}
+.left{
+    background-color: #333;
+    height: 100%;
+}
+
      
 
  
