@@ -1,303 +1,391 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Island Bay Marine Education Centre</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- favicon link -->
-    <link rel="shortcut icon" href="images/favicon/octoicon.png">
+    <link rel="shortcut icon" href="images/favicon/octoicon.png" />
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oswald:400,600|Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa|Oswald:400,600|Poppins&display=swap"
+      rel="stylesheet"
+    />
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!-- css -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- navigation header -->
     <nav class="myNav">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-3">
-                    <a class="logo" id="banner" href="#">
-                        <img src="images/logo/octo.png">
-                    </a>
-                </div>
-                <div class="col-9 links">
-                    <ul class="myNavLinks">
-                        <li id="navWho">WHO WE ARE</li>
-                        <li id="navGet">GET INVOLVED</li>
-                        <li id="navOcean">OUR OCEAN</li>
-                        <li id="navContact">CONTACT</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <a class="logo" href="#">
+              <img id="logo" src="images/logo/octo.png" />
+            </a>
+          </div>
+          <div class="col-9 links">
+            <ul class="myNavLinks">
+              <li id="navWho">WHO WE ARE</li>
+              <li id="navGet">GET INVOLVED</li>
+              <li id="navOcean">OUR OCEAN</li>
+              <li id="navContact">CONTACT</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
-
 
     <!--body section-->
     <div class="container-fluid masterContain">
-
-        <!--nav button/info section-->
-        <div class="row navButtonSection">
-            <div class="col-12 navButtonContain">
-                <button class="btn myBtn" id="navWho">WHO WE ARE</button>
-                <button class="btn navBtn" id="navGet">GET INVOLVED</button>
-                <button class="btn navBtn" id="navOcean">OUR OCEAN</button>
-                <button class="btn navBtn" id="navContact">CONTACT</button>
-            </div>
-            <div class="col-12 textInfoContain">
-                <h2 class="when"><span class="textBig">WHEN: </span>OPEN EVERY SUNDAY FROM 10AM-3PM</h2>
-                <h2 class="where"><span class="textBig">WHERE: </span>213 THE ESPLANADE, ISLAND BAY</h2>
-                <h2 class="much"><span class="textBig">HOW MUCH: </span>CHILDREN: $2, ADULTS: $5</h2>
-                <div id="hiddenWho"></div>
-            </div>
+      <!--nav button/info section-->
+      <div class="row navButtonSection">
+        <div class="col-12 navButtonContain">
+          <button class="btn myBtn" id="navWho">WHO WE ARE</button>
+          <button class="btn navBtn" id="navGet">GET INVOLVED</button>
+          <button class="btn navBtn" id="navOcean">OUR OCEAN</button>
+          <button class="btn navBtn" id="navContact">CONTACT</button>
         </div>
-
-        <!--banner section-->
-        <div class="row bannerContain" id="banner">
-            <div class="col-12 bannerWidth">
-                <img class="banner" src="images/banner/octofoto.png">
-            </div>
-            <div class="bannerText">
-                <h2 class="ontop">WHEN: <span class="bannerText--small">OPEN EVERY SUNDAY FROM 10AM-3PM</span>
-                </h2>
-                <h2 class="ontop">WHERE: <span class="bannerText--small">213 THE ESPLANADE, ISLAND BAY</span></h2>
-                <h2 class="ontop">HOW MUCH: <span class="bannerText--small">CHILDREN: $2, ADULTS: $5</span></h2>
-            </div>
-            <div id="hiddenWho"></div>
+        <div class="col-12 textInfoContain">
+          <h2 class="when">
+            <span class="textBig">WHEN: </span>OPEN EVERY SUNDAY FROM 10AM-3PM
+          </h2>
+          <h2 class="where">
+            <span class="textBig">WHERE: </span>213 THE ESPLANADE, ISLAND BAY
+          </h2>
+          <h2 class="much">
+            <span class="textBig">HOW MUCH: </span>CHILDREN: $2, ADULTS: $5
+          </h2>
+          <div id="hiddenWho2"></div>
         </div>
+      </div>
 
-        <!-- who we are section -->
-        <div class="row whoSection">
-            <div class="col-12">
-                <h2><span class="dash"> — </span>WE ARE WELLINGTONS ONLY HANDS<span class="dash"> —
-                    </span><br>ON MARINE EDUCATION CENTRE</h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <p class="whoParagraphs paraTop">The Island Bay Marine Education Centre is a non-profit organisation
-                    that inspires
-                    people of all ages to learn about Wellington’s and all of New Zealand’s marine environments in a
-                    safe and fun setting.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <p class="whoParagraphs">For 22 years the Island Bay Marine Education Centre has been offering hands-on
-                    marine educational experiences for people of all ages through their Marine Education Discovery
-                    Programmes and weekly Open Sundays.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <p class="whoParagraphs">The Island Bay Marine Education Centre is a non-profit organisation that
-                    inspires
-                    people of all ages to learn about Wellington’s and all of New Zealand’s marine environments in a
-                    safe and fun setting.</p>
-            </div>
-            <div class="col-12">
-                <p class=whoBottom>"If you know what's there, then you'll care!"</p>
-            </div>
-            <div id="hiddenGet"></div>
+      <!--banner section-->
+      <div class="row bannerContain" id="banner">
+        <div class="col-12 bannerWidth">
+          <img class="banner" src="images/banner/octofoto.png" />
         </div>
-
-        <!-- get involved section -->
-        <div class="row involvedSection">
-            <div class="col-12 involvedHeading">
-                <h2><span class="dash"> — </span> GET INVOLVED <span class="dash"> — </span></h2>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="iconContain">
-                    <img class="iconImage" src="images/get involved icons/public50.png">
-                </div>
-                <div class="textOverIcon">
-                    <h3>public visitations every sunday from: 10am-3pm<br>CHILDREN: $2 <br>ADULTS: $5 <br>213 the
-                        esplanade island bay
-                    </h3>
-                </div>
-                <div>
-                    <h3 class="iconInfo">COME DOWN AND VISIT US</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="iconContain">
-                    <img class="iconImage" src="images/get involved icons/group50.png">
-                </div>
-                <div class="textOverIcon">
-                    <h3>group tours from $3 per person, <br> fill out our contact form for more information and time
-                        tables
-                    </h3>
-                </div>
-                <div>
-                    <h3 class="iconInfo">SCHOOL/SOCIAL GROUP TOURS</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="iconContain">
-                    <img class="iconImage" src="images/get involved icons/volunteer50.png">
-                </div>
-                <div class="textOverIcon">
-                    <h3>want to become a volunteer at the island bay marine education centre? contact us now!
-                    </h3>
-                </div>
-                <div>
-                    <h3 class="iconInfo">BECOME A VOLUNTEER</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                <div class="iconContain">
-                    <img class="iconImage" src="images/get involved icons/donate50.png">
-                </div>
-                <div class="textOverIcon">
-                    <h3>to make a donation to our non-profit organisation contact us and we'll send you out an
-                        application
-                    </h3>
-                </div>
-                <div>
-                    <h3 class="iconInfo">MAKE A DONATION</h3>
-                </div>
-            </div>
-            <div id="hiddenOcean"></div>
+        <div class="bannerText">
+          <h2 class="ontop">
+            WHEN:
+            <span class="bannerText--small"
+              >OPEN EVERY SUNDAY FROM 10AM-3PM</span
+            >
+          </h2>
+          <h2 class="ontop">
+            WHERE:
+            <span class="bannerText--small">213 THE ESPLANADE, ISLAND BAY</span>
+          </h2>
+          <h2 class="ontop">
+            HOW MUCH:
+            <span class="bannerText--small">CHILDREN: $2, ADULTS: $5</span>
+          </h2>
         </div>
+        <div id="hiddenWho"></div>
+      </div>
 
-        <!-- our ocean -->
-        <div class="row oceanSection">
-            <div class="col-12 oceanHeading">
-                <h2><span class="dash"> — </span> ALL ABOUT OUR OCEAN <span class="dash"> — </span></h2>
-            </div>
-            <div class="oceanCardContain">
-                <div class="card-deck">
-                    <div class="card oceanCard">
-                        <img class="card-img-top oceanCard--img" src="images/ocean/island.png"
-                            alt="image of island bay">
-                        <div class="card-body">
-                            <p class="card-text oceanText">The Taputeranga Marine Reserve is located on Wellington’s
-                                South Coast. Since 2008 when the area was accorded reserve status, the 9 square
-                                kilometre reserve has been fully protected and the removal of anything from the reserve
-                                prohibited.</p>
-                        </div>
-                    </div>
-                    <div class="card oceanCard">
-                        <img class="card-img-top oceanCard--img" src="images/ocean/shark.png" alt="image of shark">
-                        <div class="card-body">
-                            <p class="card-text oceanText">Sharks have a secret weapon in their snouts that helps them
-                                hunt prey. It's an organ that can sense faint electrical signals given off by other,
-                                creatures. Now, engineers in Indiana have made a new material for electronics that
-                                mimics the shark's sensor.</p>
-                        </div>
-                    </div>
-                    <div class="card oceanCard">
-                        <img class="card-img-top oceanCard--img" src="images/ocean/manta.png" alt="image of island bay">
-                        <div class="card-body">
-                            <p class="card-text oceanText">A major study into the effect of tiny plastic fragments on
-                                some the biggest marine animals found that filter-feeding sharks, rays and whales which
-                                can swallow thousands of cubic meters of water a day to capture plankton, fish and squid
-                                are at risk of serious contamination.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="hiddenContact"></div>
+      <!-- who we are section -->
+      <div class="row whoSection">
+        <div class="col-12">
+          <h2>
+            <span class="dash"> — </span>WE ARE WELLINGTONS ONLY HANDS<span
+              class="dash"
+            >
+              — </span
+            ><br />ON MARINE EDUCATION CENTRE
+          </h2>
         </div>
-
-        <!-- contact section-->
-        <div class="row contactSection">
-            <div class="col-12 contactHeading">
-                <h2 class="contactUs"><span class="dash"> — </span>CONTACT US<span class="dash"> — </span></h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="deetsLeft">
-                    <h3>ADDRESS:</h3>
-                </div>
-                <div class="deetsRight">
-                    <h3>Bait House Aquarium</h3>
-                    <h3>213 The Esplanade<br></h3>
-                    <h3>Island Bay, 6023</h3>
-                    <h3>Wellington</h3>
-                </div>
-                <div class="deetsLeft">
-                    <h3>PHONE:</h3>
-                </div>
-                <div class="deetsRight">
-                    <h3>(04) 383-8285</h3>
-                </div>
-                <div class="deetsLeft">
-                    <h3>E-MAIL:</h3>
-                </div>
-                <div class="deetsRight">
-                    <h3>bookings@octopus.org.nz</h3>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <form>
-                    <div class="form-group">
-                        <label class="contactName">NAME</label>
-                        <input type="text" class="form-control textBox" placeholder="Please Enter Name">
-                    </div>
-                    <div class="form-group">
-                        <label class="contactName">EMAIL</label>
-                        <input type="email" class="form-control textBox" id="exampleInputEmail1"
-                            aria-describedby="emailHelp" placeholder="Please Enter email">
-                    </div>
-                    <div class="form-group">
-                        <label class="contactName">MESSAGE</label>
-                        <textarea class="form-control textBox" rows="10"></textarea>
-                    </div>
-                    <button type="submit" class="btn submit">Submit</button>
-                </form>
-            </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <p class="whoParagraphs paraTop">
+            The Island Bay Marine Education Centre is a non-profit organisation
+            that inspires people of all ages to learn about Wellington’s and all
+            of New Zealand’s marine environments in a safe and fun setting.
+          </p>
         </div>
-
-
-        <!-- map section -->
-        <div class="row">
-            <div class="col-12 map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1812.557963736616!2d174.7730868185472!3d-41.34463473864917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38a5353cfbcadb%3A0xbaf158f5933a4194!2sIsland+Bay+Marine+Education+Centre-Bait+House+Aquarium!5e0!3m2!1sen!2snz!4v1536025932926"
-                    width="100" height="100" frameborder="0" style="border:0" allowfullscreen>
-                </iframe>
-            </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <p class="whoParagraphs">
+            For 22 years the Island Bay Marine Education Centre has been
+            offering hands-on marine educational experiences for people of all
+            ages through their Marine Education Discovery Programmes and weekly
+            Open Sundays.
+          </p>
         </div>
-        <!--body section ENDS!!!!-->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <p class="whoParagraphs">
+            The Island Bay Marine Education Centre is a non-profit organisation
+            that inspires people of all ages to learn about Wellington’s and all
+            of New Zealand’s marine environments in a safe and fun setting.
+          </p>
+        </div>
+        <div class="col-12">
+          <p class="whoBottom">"If you know what's there, then you'll care!"</p>
+        </div>
+        <div id="hiddenGet"></div>
+      </div>
+
+      <!-- get involved section -->
+      <div class="row involvedSection">
+        <div class="col-12 involvedHeading">
+          <h2>
+            <span class="dash"> — </span> GET INVOLVED
+            <span class="dash"> — </span>
+          </h2>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="iconContain">
+            <img
+              class="iconImage"
+              src="images/get involved icons/public50.png"
+            />
+          </div>
+          <div class="textOverIcon">
+            <h3>
+              public visitations every sunday from: 10am-3pm<br />CHILDREN: $2
+              <br />ADULTS: $5 <br />213 the esplanade island bay
+            </h3>
+          </div>
+          <div>
+            <h3 class="iconInfo">COME DOWN AND VISIT US</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="iconContain">
+            <img
+              class="iconImage"
+              src="images/get involved icons/group50.png"
+            />
+          </div>
+          <div class="textOverIcon">
+            <h3>
+              group tours from $3 per person, <br />
+              fill out our contact form for more information and time tables
+            </h3>
+          </div>
+          <div>
+            <h3 class="iconInfo">SCHOOL/SOCIAL GROUP TOURS</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="iconContain">
+            <img
+              class="iconImage"
+              src="images/get involved icons/volunteer50.png"
+            />
+          </div>
+          <div class="textOverIcon">
+            <h3>
+              want to become a volunteer at the island bay marine education
+              centre? contact us now!
+            </h3>
+          </div>
+          <div>
+            <h3 class="iconInfo">BECOME A VOLUNTEER</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+          <div class="iconContain">
+            <img
+              class="iconImage"
+              src="images/get involved icons/donate50.png"
+            />
+          </div>
+          <div class="textOverIcon">
+            <h3>
+              to make a donation to our non-profit organisation contact us and
+              we'll send you out an application
+            </h3>
+          </div>
+          <div>
+            <h3 class="iconInfo">MAKE A DONATION</h3>
+          </div>
+        </div>
+        <div id="hiddenOcean"></div>
+      </div>
+
+      <!-- our ocean -->
+      <div class="row oceanSection">
+        <div class="col-12 oceanHeading">
+          <h2>
+            <span class="dash"> — </span> ALL ABOUT OUR OCEAN
+            <span class="dash"> — </span>
+          </h2>
+        </div>
+        <div class="oceanCardContain">
+          <div class="card-deck">
+            <div class="card oceanCard">
+              <img
+                class="card-img-top oceanCard--img"
+                src="images/ocean/island.png"
+                alt="image of island bay"
+              />
+              <div class="card-body">
+                <p class="card-text oceanText">
+                  The Taputeranga Marine Reserve is located on Wellington’s
+                  South Coast. Since 2008 when the area was accorded reserve
+                  status, the 9 square kilometre reserve has been fully
+                  protected and the removal of anything from the reserve
+                  prohibited.
+                </p>
+              </div>
+            </div>
+            <div class="card oceanCard">
+              <img
+                class="card-img-top oceanCard--img"
+                src="images/ocean/shark.png"
+                alt="image of shark"
+              />
+              <div class="card-body">
+                <p class="card-text oceanText">
+                  Sharks have a secret weapon in their snouts that helps them
+                  hunt prey. It's an organ that can sense faint electrical
+                  signals given off by other, creatures. Now, engineers in
+                  Indiana have made a new material for electronics that mimics
+                  the shark's sensor.
+                </p>
+              </div>
+            </div>
+            <div class="card oceanCard">
+              <img
+                class="card-img-top oceanCard--img"
+                src="images/ocean/manta.png"
+                alt="image of island bay"
+              />
+              <div class="card-body">
+                <p class="card-text oceanText">
+                  A major study into the effect of tiny plastic fragments on
+                  some the biggest marine animals found that filter-feeding
+                  sharks, rays and whales which can swallow thousands of cubic
+                  meters of water a day to capture plankton, fish and squid are
+                  at risk of serious contamination.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="hiddenContact"></div>
+      </div>
+
+      <!-- contact section-->
+      <div class="row contactSection">
+        <div class="col-12 contactHeading">
+          <h2 class="contactUs">
+            <span class="dash"> — </span>CONTACT US<span class="dash"> — </span>
+          </h2>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="deetsLeft">
+            <h3>ADDRESS:</h3>
+          </div>
+          <div class="deetsRight">
+            <h3>Bait House Aquarium</h3>
+            <h3>213 The Esplanade<br /></h3>
+            <h3>Island Bay, 6023</h3>
+            <h3>Wellington</h3>
+          </div>
+          <div class="deetsLeft">
+            <h3>PHONE:</h3>
+          </div>
+          <div class="deetsRight">
+            <h3>(04) 383-8285</h3>
+          </div>
+          <div class="deetsLeft">
+            <h3>E-MAIL:</h3>
+          </div>
+          <div class="deetsRight">
+            <h3>bookings@octopus.org.nz</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <form>
+            <div class="form-group">
+              <label class="contactName">NAME</label>
+              <input
+                type="text"
+                class="form-control textBox"
+                placeholder="Please Enter Name"
+              />
+            </div>
+            <div class="form-group">
+              <label class="contactName">EMAIL</label>
+              <input
+                type="email"
+                class="form-control textBox"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Please Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <label class="contactName">MESSAGE</label>
+              <textarea class="form-control textBox" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- map section -->
+      <div class="row">
+        <div class="col-12 map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1812.557963736616!2d174.7730868185472!3d-41.34463473864917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38a5353cfbcadb%3A0xbaf158f5933a4194!2sIsland+Bay+Marine+Education+Centre-Bait+House+Aquarium!5e0!3m2!1sen!2snz!4v1536025932926"
+            width="100"
+            height="100"
+            frameborder="0"
+            style="border:0"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+      <!--body section ENDS!!!!-->
     </div>
 
     <!-- footer -->
     <footer class="myFooter">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 footerLeft">
-                    <a href="https://www.facebook.com/Aquariumnz" target="_blank">
-                        <img src="images/social/face.svg" alt="Facebook Logo">
-                    </a>
-                    <a href="https://twitter.com/islandbaymarine" target="_blank">
-                        <img src="images/social/twitter.svg" alt="Twitter Logo">
-                    </a>
-                </div>
-                <div class="col-8 footerRight">
-                    <h2 id="daniel">made by daniel clarke 2018</h2>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 footerLeft">
+            <a href="https://www.facebook.com/Aquariumnz" target="_blank">
+              <img src="images/social/face.svg" alt="Facebook Logo" />
+            </a>
+            <a href="https://twitter.com/islandbaymarine" target="_blank">
+              <img src="images/social/twitter.svg" alt="Twitter Logo" />
+            </a>
+          </div>
+          <div class="col-8 footerRight">
+            <h2 id="daniel">made by daniel clarke 2018</h2>
+          </div>
         </div>
-
+      </div>
     </footer>
 
 
-
-
-
     <!-- javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="js/jquery-3.3.1.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+    </script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="js/main.js"></script>
-
-</body>
+  </body>
+</html>

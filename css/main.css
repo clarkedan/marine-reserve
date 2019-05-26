@@ -57,7 +57,7 @@ body {
 
 /* MASTER!!!!! --------------------------------------*/
 .masterContain {
-    max-width: 90%;
+    max-width: 85%;
 }
 
 /* BANNER!!!!!-------------------------------------- */
@@ -360,39 +360,39 @@ iframe {
 
 /* HIDDEN SCROLL DIVS---------------------------- */
 #hiddenWho {
-    height: 126px;
+    height: 119px;
     width: 20%;
     border: solid 0.1px pink;
     position: absolute;
     bottom: 0px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #hiddenGet {
-    height: 126px;
+    height: 119px;
     width: 20%;
     border: solid 0.1px pink;
     position: absolute;
     bottom: 0px;
-    opacity: 1;
+    opacity: 0.0;
 }
 
 #hiddenOcean {
-    height: 126px;
+    height: 119px;
     width: 20%;
     border: solid 0.1px pink;
     position: absolute;
     bottom: 0px;
-    opacity: 1;
+    opacity: 0;
 }
 
 #hiddenContact {
-    height: 126px;
+    height: 119px;
     width: 20%;
     border: solid 0.1px pink;
     position: absolute;
     bottom: 0px;
-    opacity: 1;
+    opacity: 0;
 }
 
 /* media query lg---------------------------- */
@@ -592,10 +592,10 @@ iframe {
         margin-top: 30px;
     }
     .where{
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .much{
-        margin-top: 20px;
+        margin-top: 15px;
         margin-bottom: 30px;
     }
     .textBig{
@@ -603,7 +603,7 @@ iframe {
     }
     /* --------------------------------- */
     .whoSection h2 {
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 0px;
         margin-top: 30px;
         margin-bottom: 1rem;
