@@ -560,7 +560,8 @@ iframe {
         font-size: 20px;
     }
     .myBtn:hover{
-        color: #F2F5F3;
+        background-color: #6bcbdc;
+        color: #242942;
     }
     .navBtn{
         margin-top: 20px;
@@ -572,7 +573,8 @@ iframe {
         letter-spacing: 2px;
     }
     .navBtn:hover{
-        color: #F2F5F3; 
+        background-color: #6bcbdc;
+        color: #242942; 
     }
     .textInfoContain{
         display: flex;
