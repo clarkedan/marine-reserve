@@ -402,10 +402,6 @@ iframe {
     bottom: 0px;
     opacity: 0;
 }
-/* HIDDEN TEXT---------------------------- */
-#textPlubic{
-    display: none;
-}
 
 /* media query lg---------------------------- */
 @media only screen and (max-width : 768px) {
