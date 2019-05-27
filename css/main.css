@@ -367,6 +367,14 @@ iframe {
     bottom: 0px;
     opacity: 0;
 }
+#hiddenWho2 {
+    height: 119px;
+    width: 20%;
+    border: solid 0.1px pink;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+}
 
 #hiddenGet {
     height: 119px;
@@ -393,6 +401,10 @@ iframe {
     position: absolute;
     bottom: 0px;
     opacity: 0;
+}
+/* HIDDEN TEXT---------------------------- */
+#textPlubic{
+    display: none;
 }
 
 /* media query lg---------------------------- */

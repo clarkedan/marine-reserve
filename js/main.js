@@ -27,5 +27,25 @@ $(document).ready(function(){
     }, 1000);
   });
 
-
+  $("#navWho2").click(function(){
+    $('html, body').animate({
+      scrollTop: $("#hiddenWho2").offset().top
+    }, 1000);
+  });
+  $("#navGet2").click(function(){
+    $('html, body').animate({
+      scrollTop: $("#hiddenGet").offset().top
+    }, 1000);
+  });
+  $("#navOcean2").click(function(){
+    $('html, body').animate({
+      scrollTop: $("#hiddenOcean").offset().top
+    }, 1000);
+  });
+  $("#navContact2").click(function(){
+    $('html, body').animate({
+      scrollTop: $("#hiddenContact").offset().top
+    }, 1000);
+  });
+  
 });
